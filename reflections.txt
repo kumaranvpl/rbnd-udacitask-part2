@@ -1,13 +1,24 @@
 # What you added to Udacitask 2.0
 # -------------------------------------------------------
 1. What is the gem of your choice and how did you use it?
+	I chose terminal-table to print formated ascii table.
 2. Describe the 2 features you added to the project.
-  a) Feature 1...
-  b) Feature 2...
+  a) Feature One: Added support for formatting ascii table using terminal-table gem
+  b) Feature Two: Added support to change the due date of a todo item
 
 # REFLECTIONS
 # -------------------------------------------------------
 1. How long did you spend working on this project?
+	Roughly 4 hours.
+
 2. What was the most rewarding challenge you conquered?
+	Completing this project without any conflicts.
+
 3. What two additional features did you build? Why?
+	a) Feature One: Added support for formatting ascii table using terminal-table gem
+		Why? Formatting looks good for eyes. Kinda an UX tweak.
+  	b) Feature Two: Added support to change the due date of a todo item
+  		Why? Most of us change our todo dates according to the current situation. So this feature makes sense
+
 4. Where do you still have room to grow?
+	I don't know exactly. There are many things actually. But the major one is not confusing ruby syntaxes with python syntaxes which I know already.
