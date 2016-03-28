@@ -55,12 +55,12 @@ new_list.pretty_list
 puts "Feature Two: Change due date of a todo"
 
 list = UdaciList.new(title: "ToDo List")
-list.add("todo", "Go to BvS", due: "2016-02-01", priority: "low")
-list.add("todo", "Mindfullnes meditation", due: "2016-02-02")
-list.add("todo", "Finish ruby course", due: "2016-02-03", priority: "high")
+list.add("todo", "Goto civilwar film", due: Chronic.parse('4th friday in may').to_s, priority: "low")
+list.add("todo", "Mindfullnes meditation", due: Chronic.parse('in 3 hours').to_s)
+list.add("todo", "Finish ruby course", due: Chronic.parse('2 days from now').to_s, priority: "high")
 list.all
 
 puts
-puts "Change item 3's due date to March 1"
-list.change_due_date(3, "2016-03-01")
+puts "Change item 3's due date to tomorrow"
+list.change_due_date(3, Chronic.parse('tomorrow').to_s)
 list.all
